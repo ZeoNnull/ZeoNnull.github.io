@@ -1,0 +1,73 @@
+.header
+    background: url(../img/header_bg.svg) center (center/cover) no-repeat
+    height: 1000px
+    position: relative
+    box-shadow: 0px 0px 100px 80px #122F44 inset
+    &__menu
+        ul
+            display: flex
+            list-style: none
+            justify-content: center
+            margin: 0
+            padding: 0
+            li
+                margin: 20px 37px 0 37px
+                a
+                    text-decoration: none
+                    color: $white
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: normal
+                    transition: 0.5s all
+                    &:hover
+                        color: $green
+                        text-decoration: underline
+    &__logo
+        position: absolute
+        left: 80px
+        top: 80px
+        width: 100px
+        img
+            width: 100%  
+    &__title
+        margin-left: 360px
+        margin-top: 180px
+        h1
+            color: $white
+            font-size: 64px
+            font-style: normal
+            font-weight: 700
+            line-height: normal
+        h2
+            margin-top: 50px
+            color: $white
+            font-size: 40px
+            font-style: normal
+            font-weight: 400
+            line-height: normal   
+    &__btn
+        color: $white
+        width: 275px
+        height: 60px
+        margin-left: 360px
+        margin-top: 105px
+        border-radius: 15px
+        background: linear-gradient(267deg, #23892D 0%, #0F4014 85.94%)   
+        border: none 
+        transition: 0.5s all 
+        &:hover
+            transform: translateY(-10px) 
+    &__social
+        display: flex
+        margin-left: 360px
+        margin-top: 220px
+        &-link
+            width: 50px
+            height: 50px
+            margin: 0 10px
+            transition: 0.5s all
+            &:hover
+                transform: translateY(-10px)
+            img
+                width: 100%    
