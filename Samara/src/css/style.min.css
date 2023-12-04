@@ -108,6 +108,12 @@
   background: url(../img/header_bg2.png) center center/cover no-repeat;
   height: 1300px;
 }
+.t__header .header__menu ul li:nth-child(1) {
+  pointer-events: auto;
+}
+.t__header .header__menu ul li:nth-child(1) a {
+  color: #ffffff;
+}
 .t__header .header__menu ul li:nth-child(3) {
   pointer-events: none;
 }
