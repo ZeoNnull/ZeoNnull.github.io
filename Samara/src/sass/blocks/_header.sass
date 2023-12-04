@@ -76,6 +76,11 @@
 .t__header
     background: url(../img/header_bg2.png) center (center/cover) no-repeat
     height: 1300px
+    .header__menu
+        ul
+            li
+                &:nth-child(2)
+                    pointer-events: none
     &__wrapper
         margin-top: 170px
         height: 100%
@@ -135,7 +140,7 @@
                         font-style: normal
                         font-weight: 400
                         line-height: normal
-                        width: 400px
+                        width: 100%
                     &__btn
                         border: none
                         width: 150px
