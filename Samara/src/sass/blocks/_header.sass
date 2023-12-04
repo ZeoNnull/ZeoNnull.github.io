@@ -12,6 +12,10 @@
             padding: 0
             li
                 margin: 20px 37px 0 37px
+                &:nth-child(1)
+                    pointer-events: none
+                    a
+                        color: #727272
                 a
                     text-decoration: none
                     color: $white
@@ -79,8 +83,10 @@
     .header__menu
         ul
             li
-                &:nth-child(2)
+                &:nth-child(3)
                     pointer-events: none
+                    a
+                        color: #727272
     &__wrapper
         margin-top: 170px
         height: 100%

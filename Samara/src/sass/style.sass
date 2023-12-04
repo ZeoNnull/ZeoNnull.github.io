@@ -19,6 +19,7 @@
 @import "blocks/_carousel"
 @import "blocks/_docs"
 @import "blocks/_tour-gallery"
+@import "blocks/_modal"
 
 *
     font-family: 'Montserrat Alternates', sans-serif
@@ -213,6 +214,12 @@ body
         .carousel
             width: 600px
             height: 400px
+
+    
+    .modal
+        &-body
+            font-size: 16px
+            
 @media  ( max-width: 767px )
     .header
         height: 700px
@@ -454,3 +461,7 @@ body
                 width: 300px
                 height: 200px
                 margin-bottom: 50px
+
+        .modal
+            &-body
+                font-size: 12px
